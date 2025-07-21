@@ -1,0 +1,45 @@
+* {
+    background-color: black;
+    color: white;
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+.search-box input {
+    width:500px;
+    height: 40px;
+    padding: 5px 10px;
+    background-color: rgb(241, 241, 241 ) ;
+    border-radius: 8px;
+
+}
+.search-box ,i {
+    position: relative;
+    right: 30px;
+
+}
+ .search-box, i:hover {
+    color :blue
+ }
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* banner related styles */
+.banner {
+    max-width: 1200px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    padding-top: 160px;
+}
+.banner-content {
+    max-width:500px;
+    height: 300px;
+
+}
